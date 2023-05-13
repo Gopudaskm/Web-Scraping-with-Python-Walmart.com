@@ -1,0 +1,25 @@
+# Find_Seller_Info.py
+
+## Description
+"Find_Seller_Info.py" is a Python script that extracts seller information of laptops from "https://www.walmart.com/" website. 
+The program first extracts product id and title of the products and saves them to a dictionary file with product id as key and title as value. 
+Then it extracts seller information for the products using the product ids and updates the dictionary with the seller information.
+ There is a delay of 20 seconds before every request to avoid blocking, and a proxy is used to prevent being blocked by the website. 
+The user can change the proxy if needed. After collecting all seller information for the products, the data will be saved to "Data.json" file.
+
+The program uses the following libraries: requests, lxml, json, and time
+
+
+## Usage
+To use the program, run the "Find_Seller_Info.py" file in your Python environment. The program will automatically extract product id and title of the products
+ and save them to a dictionary file named "Product_Info.json". Then it will extract seller information for the products using the product ids and update
+ the dictionary with the seller information. Finally, it will save the data to "Data.json" file. The user can change the proxy if needed.
+
+## Disclaimer
+This program is for educational purposes only. It only extracts data from the first page, but the user can change the code to collect data from all pages,
+ if needed. Any adulteration in the webpage can cause errors.
+
+
+
+## Errors
+In case of any errors or problems that occurred while writing the script, please check the "Errors" folder, which contains images explaining the issues and possible solutions.
